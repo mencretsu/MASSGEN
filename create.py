@@ -1,6 +1,6 @@
 from eth_account import Account
 
-list_wallet = input('Number of wallets: ')
+list_wallet = int(input('Number of wallets: '))
 wallets = []
 
 for _ in range(list_wallet):
